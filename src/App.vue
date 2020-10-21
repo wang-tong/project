@@ -1,20 +1,15 @@
 <template>
-  <div>
-    <my-addition></my-addition>
-    <my-subtraction></my-subtraction>
+  <div id="app">
+    <img alt="Vue logo" src="./assets/logo.png" />
   </div>
 </template>
+
 <script>
-import Addition from './components/Addition.vue'
-import Subtraction from './components/Subtraction.vue'
+
 export default {
-  name: '',
-  data () {
-    return { a: '' }
-  },
+  name: 'App',
   components: {
-    'my-addition': Addition,
-    'my-subtraction': Subtraction
+    HelloWorld
   }
 }
 </script>

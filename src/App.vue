@@ -1,21 +1,26 @@
+/*
+ * @Author: WangTong
+ * @Date: 2020-07-01 15:58:13
+ * @Last Modified by: WangTong
+ * @Last Modified time: 2020-08-24 10:49:14
+ */
 <template>
   <div>
-    <my-addition></my-addition>
-    <my-subtraction></my-subtraction>
+    <test></test>
   </div>
 </template>
 <script>
-import Addition from './components/Addition.vue'
-import Subtraction from './components/Subtraction.vue'
+import test from '@/components/test.vue'
+
 export default {
   name: '',
   data () {
-    return { a: '' }
+    return {}
   },
   components: {
-    'my-addition': Addition,
-    'my-subtraction': Subtraction
+    test
   }
 }
+
 </script>
 <style lang="scss" scoped></style>
